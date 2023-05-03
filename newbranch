@@ -14,11 +14,11 @@ html = response.read().decode('utf-8')
 soup = BeautifulSoup(html,"html.parser")
 last_price = soup.find(id="pricing-studio-price")
 
-mail_host = 'smtp.gmail.com'
-mail_user = 'ruizhengzhang0207'
-mail_pass = 'ooktpushilabtqkx'
-sender = 'ruizhengzhang0207@gmail.com'
-receivers = ['1228700937@qq.com']
+mail_host = 'xxxx'
+mail_user = 'xxxx'
+mail_pass = 'xx'
+sender = 'xxx'
+receivers = ['xxxx']
 
 
 while True:
